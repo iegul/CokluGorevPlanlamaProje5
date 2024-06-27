@@ -1,0 +1,19 @@
+/* CSS dosyanızda veya uygun stil dosyasında */
+/* .gonder sınıfına sahip buton için özel stil */
+.ant-btn-primary.gonder,
+.ant-btn-primary.gonder:hover,
+.ant-btn-primary.gonder:focus {
+  width: 120px; /* Örneğin, 120 piksel genişlik */
+  height: 40px; /* Örneğin, 40 piksel yükseklik */
+  font-size: 14px;
+  background-color: #ff69b4; /* Pembe arkaplan */
+  border-color: #ff69b4; /* Pembe kenarlık */
+  color: white; /* Beyaz yazı rengi */
+}
+
+/* .gonder sınıfına sahip buton hover ve focus durumları için stil */
+.ant-btn-primary.gonder:hover,
+.ant-btn-primary.gonder:focus {
+  background-color: #a9567e; /* Koyu pembe arkaplan */
+  border-color: #ff69b4; /* Pembe kenarlık */
+}

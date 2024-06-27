@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "todo": "React",
+    "users": [
+      { "id": 1, "first_name": "İrem" },
+      { "id": 2, "first_name": "Elif" },
+      { "id": 3, "first_name": "Gül" }
+    ],
+    "startDate": "2024-06-27",
+    "endDate": "2024-07-02",
+    "subtasks": [
+      {
+        "id": 1,
+        "content": "Proje",
+        "details": {
+          "startDate": "2024-06-30",
+          "endDate": "2024-06-30",
+          "selectedUsers": ["İrem", "Elif"]
+        }
+      },
+      {
+        "id": 2,
+        "content": "Proje 2",
+        "details": {
+          "startDate": "2024-06-30",
+          "endDate": "2024-06-30",
+          "selectedUsers": ["Gül"]
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "todo": "Flutter",
+    "users": [{ "id": 3, "first_name": "Meri" }],
+    "startDate": "2024-06-02",
+    "endDate": "2024-06-05",
+    "subtasks": [
+      {
+        "id": 1,
+        "content": "Proje 3",
+        "details": {
+          "startDate": "2024-06-02",
+          "endDate": "2024-06-03",
+          "selectedUsers": ["Meri"]
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "todo": "Java",
+    "users": [
+      { "id": 4, "first_name": "İlge" },
+      { "id": 5, "first_name": "Gülfer" }
+    ],
+    "startDate": "2024-06-12",
+    "endDate": "2024-06-14",
+    "subtasks": []
+  },
+  {
+    "id": 4,
+    "todo": "C#",
+    "users": [
+      { "id": 6, "first_name": "Elife" },
+      { "id": 6, "first_name": "Elgün" },
+      { "id": 6, "first_name": "Efgül" },
+      { "id": 6, "first_name": "İmren" }
+    ],
+    "startDate": "2024-06-15",
+    "endDate": "2024-06-18",
+    "subtasks": [
+      {
+        "id": 1,
+        "content": "Proje4",
+        "details": {
+          "startDate": "2024-06-15",
+          "endDate": "2024-06-15",
+          "selectedUsers": ["İmren", "Elife"]
+        }
+      },
+      {
+        "id": 2,
+        "content": "Proje 5",
+        "details": {
+          "startDate": "2024-06-16",
+          "endDate": "2024-06-18",
+          "selectedUsers": ["Elife", "Elgün", "Efgül", "İmren"]
+        }
+      }
+    ]
+  }
+]

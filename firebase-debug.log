@@ -1,0 +1,28 @@
+[debug] [2024-06-26T22:12:55.087Z] ----------------------------------------------------------------------
+[debug] [2024-06-26T22:12:55.090Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ireme\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-06-26T22:12:55.090Z] CLI Version:   13.12.0
+[debug] [2024-06-26T22:12:55.091Z] Platform:      win32
+[debug] [2024-06-26T22:12:55.091Z] Node Version:  v21.7.1
+[debug] [2024-06-26T22:12:55.091Z] Time:          Thu Jun 27 2024 01:12:55 GMT+0300 (GMT+03:00)
+[debug] [2024-06-26T22:12:55.091Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-26T22:12:55.101Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-26T22:12:55.101Z] > authorizing via signed-in user (iremelifgull@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ireme\OneDrive\Masaüstü\wtp\projetwo
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 

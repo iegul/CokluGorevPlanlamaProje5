@@ -1,0 +1,71 @@
+/* Takvim bileşeninin boyutunu küçültmek için */
+.ant-picker-calendar {
+  max-width: 600px; /* İstediğiniz boyuta göre ayarlayabilirsiniz */
+  margin: 0 auto; /* Ortaya hizalamak için */
+}
+
+/* Mavi renkleri pembeye dönüştürmek için */
+.ant-picker-calendar-header .ant-picker-calendar-mode-switch,
+.ant-picker-calendar-header .ant-picker-calendar-month-select,
+.ant-picker-calendar-header .ant-picker-calendar-year-select,
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-calendar-date,
+.ant-picker-cell-in-view.ant-picker-cell-selected:hover
+  .ant-picker-calendar-date,
+.ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-calendar-date,
+.ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-calendar-date {
+  background-color: #ff69b4; /* Pembe renk */
+  border-color: #ff69b4; /* Pembe renk */
+}
+
+/* Hover ve aktif durumlar için de aynı renkleri uygulayalım */
+.ant-picker-calendar-header .ant-picker-calendar-mode-switch:hover,
+.ant-picker-calendar-header .ant-picker-calendar-month-select:hover,
+.ant-picker-calendar-header .ant-picker-calendar-year-select:hover,
+.ant-picker-cell-in-view.ant-picker-cell-selected:hover
+  .ant-picker-calendar-date,
+.ant-picker-cell-in-view.ant-picker-cell-range-start:hover
+  .ant-picker-calendar-date,
+.ant-picker-cell-in-view.ant-picker-cell-range-end:hover
+  .ant-picker-calendar-date {
+  background-color: #ff69b4; /* Pembe renk */
+  border-color: #ff69b4; /* Pembe renk */
+}
+
+/* Seçili tarih yazısı rengini beyaz yapalım */
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-calendar-date,
+.ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-calendar-date,
+.ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-calendar-date {
+  color: white;
+}
+
+/* Diğer hover efektlerini pembeye dönüştürmek için */
+.ant-picker-calendar .ant-picker-calendar-date-today .ant-picker-calendar-date {
+  border-color: #ff69b4; /* Pembe renk */
+}
+.ant-picker-calendar .ant-picker-calendar-date:hover {
+  background-color: #ff69b4; /* Pembe renk */
+  border-color: #ff69b4; /* Pembe renk */
+  color: white;
+}
+
+/* Geri butonu için stil */
+.takvim-container {
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 1;
+  background-color: #ff69b4; /* Pembe renk */
+  border-color: #ff69b4; /* Pembe renk */
+  color: white;
+}
+
+.back-button:hover,
+.back-button:focus {
+  background-color: #ff69b4; /* Pembe renk */
+  border-color: #ff69b4; /* Pembe renk */
+  color: white;
+}
